@@ -1,7 +1,10 @@
 import React from "react";
-// import './CheckOut.css';
 
 function Checkout() {
+
+    function handelOnSubmit(){
+        alert("You have adopted birds. Thank you!")
+    }
   return(
     <>
     <div className="checkout">
@@ -19,16 +22,16 @@ function Checkout() {
         />
         <label>Email</label>
         <input
-        type="text"
+        type="email"
         id="email"
         />
         <label>Zip Code</label>
         <input
-        type="text"
+        type="number"
         id="email"
         />
-
-        <button>Submit</button>
+    <br></br>
+        <button onClick = {handelOnSubmit}>Submit</button>
 
     </form>
     </div>
