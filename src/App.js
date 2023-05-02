@@ -6,6 +6,8 @@ import BirdCard from "./component/BirdCard";
 import Cart from "./component/Cart";
 import Checkout from "./component/Checkout";
 
+// import './App.css';
+
 function App () {
   const [itemInCart, setItemInCart] = useState([])
   const [total, setTotal] = useState(0)
@@ -25,11 +27,10 @@ function App () {
 
   return (
     <>
-       {/* <main className="main-container"> 
-    <h1>Judy's Bird Sanctuary</h1>
-    <hr/>
-    <div>className="column-card"</div> 
-    <div> className="left-column"</div> */}
+    {/* <hr/> */}
+    <div className="main-container"></div>
+    <h2>Judy's Bird Sanctuary</h2>
+    {/* <hr/> */}
     <main>
     <div className="cart-checkout">
       <Cart 
