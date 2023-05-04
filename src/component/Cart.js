@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 // import bonusItems from "./data/bonusItems";
 
 function Cart({itemInCart, setItemInCart, total, discount, bonusItems}) {

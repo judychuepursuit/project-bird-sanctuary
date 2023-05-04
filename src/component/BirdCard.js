@@ -16,7 +16,7 @@ function BirdCard({bird, itemInCart, setItemInCart, }) {
     return (
         <>
             <ul className="card">
-                <p class="name">{bird.name}</p>
+                <p className="name">{bird.name}</p>
                 <p>Price: ${bird.amount}</p>
                 <img src={bird.img} alt={bird.name} />
                 <button onClick = {handleAddToCart}>Adopt</button>
